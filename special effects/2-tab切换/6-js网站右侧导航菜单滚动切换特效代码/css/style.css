@@ -1,0 +1,29 @@
+::-webkit-scrollbar {width:8px;height:12px}
+::-webkit-scrollbar-button:vertical {display:none}
+::-webkit-scrollbar-track:vertical {background-color:black}
+::-webkit-scrollbar-track-piece {background:#FFF}
+::-webkit-scrollbar-thumb:vertical {background-color:#8E8E8E;border-radius:5px}
+::-webkit-scrollbar-thumb:vertical:hover {background-color:#3B3B3B}
+::-webkit-scrollbar-corner:vertical {background-color:#535353}
+::-webkit-scrollbar-resizer:vertical {background-color:#FF6E00}
+*{padding:0;margin:0;outline:none;}
+html{min-height:101%;/*cursor:url(http://ued.taobao.org/blog/wp-content/themes/taobaoued/images/cursor.ico),auto*/}
+*html{background-image:url(about:blank);background-attachment:fixed;}
+body{font-family:'MicroSoft Yahei',verdana,arial,tahoma;font-size:12px;color:#333;-webkit-text-size-adjust: none;}
+div{margin:0 auto}
+ul,ol,li {list-style:none}
+a{text-decoration:none;word-wrap:break-word;outline:none;hide-focus:expression(this.hideFocus=true);transition:all 0.2s ease-in-out;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;}
+a:hover{text-decoration:none;}
+img{border:0;}
+.left{float:left;}
+.right {float:right}
+.blue{color:#1061bc}
+.gray{color:#999}
+.side-nav-wrap{right:30px;position:fixed;top:350px;z-index:100;width:100px;_position:absolute;_top:expression(eval(document.documentElement.scrollTop+350));}.side-nav-wrap li,.side-nav-wrap .ft{text-align:right;position:relative;height:30px;margin-bottom:3px;vertical-align:bottom;white-space:nowrap;}
+.side-nav-wrap li a,.side-nav-wrap .ft a{display:inline-block;height:30px;width:90px;padding:0 5px;overflow:hidden;background:#014DA3;color:#fff;font:normal 14px/30px Microsoft Yahei,"宋体";text-align:right;float:right;text-align:center;}
+.side-nav-wrap li a:hover{text-decoration:none;background:#4B9A00;color:#fff;}
+.side-nav-wrap li.act a{background:#4B9A00;}
+.side-nav-wrap li i{display:block;width:6px;height:12px;background:url(../images/floatNavIco.png) no-repeat -135px 0;position:absolute;left:-6px;top:9px;display:none;}
+.side-nav-wrap li.act i{display:block;}
+.side-nav-wrap .ft a{width:75px;background:#b8b8b8 url(../images/floatNavIco.png) no-repeat 10px 10px;padding:0 5px 0 20px;}
+.side-nav-wrap .ft a:hover{text-decoration:none;background-color:#F60;}

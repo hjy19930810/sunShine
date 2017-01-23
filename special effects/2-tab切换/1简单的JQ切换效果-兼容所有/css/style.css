@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tab_main{ 
+    width:960px;
+     margin:20px auto
+}
+.tab_main .tab_title{
+    width:960px; 
+    height:44px;  
+    overflow:hidden
+}
+.tab_title div{
+    display:inline;     
+    width:131px;
+    height:44px; 
+    background:url(../images/invest_detail_22.png);
+    float:left;
+    margin-right:6px; 
+    font-size:14px; 
+    font-weight:bold; 
+    text-align:center; 
+    line-height:46px; 
+    color:#555; 
+    cursor:pointer;
+    margin-left:1px;
+}
+
+/*tab项和内容区域的a标签样式*/
+.tab_title a,
+.tab_title a:link,
+.tab_title a:visited,
+.tab_title a:hover{ 
+    display:inline-block;
+    color:#555;
+    width:131px; 
+    height:44px;
+}
+.tab_title div.on a,
+.tab_title div.on a:link,
+.tab_title div.on a:visited,
+.tab_title div.on a:hover{ 
+    color:#f70;
+}
+
+
+/*点击修改tab项的样式*/
+.tab_title div.on{
+    background:url(../images/invest_detail_18.png); 
+    color:#f70;
+}
+
+.tab_con{ 
+    clear:both; 
+    background:#fff; 
+    border:1px solid #EDEDED;
+    padding:20px;
+}
+.tab_con_list{
+    display:none;
+}

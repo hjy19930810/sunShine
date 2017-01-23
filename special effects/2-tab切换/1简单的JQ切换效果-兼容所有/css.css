@@ -1,0 +1,201 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        width: 100%;
+        background-color: white;
+    }
+.inline_block{
+       display: inline-block;
+   }
+    .table{
+        width: 750px;
+        height: 1086px;
+        margin: 0 auto;
+        /*border: 1px solid black;*/
+        border-collapse: collapse;
+        border-spacing: 0;
+        letter-spacing: 2px;
+        padding: 40px;
+    }
+    .t_tit{
+        height: 20px;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+    /*tr{
+       border: 1px solid black;
+       
+    }*/
+   
+    .tr_1{
+        height: 35px;
+    }
+    .tr_2{
+        height: 70px;
+    }
+    .tr_3{
+        height: 170px;
+    }
+    .tr_4{
+        height: 200px;
+    }
+    .table tr td{
+        border: 1px solid black;
+        padding-left: 8px;
+        font-size: 13px;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+   /*小方格*/
+   .dio{
+       width: 11px;
+       height: 11px;
+       border: 1px solid black;
+       position: relative;
+       top: 1px;
+   }
+
+   /*个人信息start*/
+   .personal{
+       width: 750px;
+       height: 35px;
+       overflow: hidden;
+   }
+   .p{
+       display: inline-block;
+       height: 35px;
+       float: left;
+       line-height: 35px;
+   }
+   .p1{
+       width: 21.15%;
+       border-right: 1px solid black;
+   }
+   .p2{
+       width: 36%;
+       border-right: 1px solid black;
+       
+   }
+   .p3{
+      width: 15%;
+      height: 35px;
+       border-right: 1px solid black; 
+   }
+   /*.flex_box{
+       width: 100%;
+       height: 35px;       
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+   }*/
+   .in_block{
+       display: inline-block;
+   }
+   .nam{
+       width: 40%;
+       height: 35px;
+       line-height: 35px;
+       border-right: 1px solid black;
+
+   }
+   .nu{
+       width: 50%;
+       
+   }
+   .date{
+       width:35%; 
+       height: 35px;
+       line-height: 35px;
+       border-right: 1px solid black;
+       
+   }
+   .date-con{
+       width: 50%;
+       height: 35px;
+       line-height: 35px;
+       
+   }
+   /*个人信息end*/
+
+   /*15line*/
+   .line_15{
+       width: 749px;
+       height: 160px;
+       padding: 10px 0 5px 0;
+   }
+     /*.border_bo{
+width: 749px;
+height: 40px;
+border-bottom: 1px solid black;
+text-align: left;
+line-height: 40px;
+   }*/
+   /*16line*/
+    .line_16{
+         width: 749px;
+        height: 198px;
+        padding: 6px 0 5px 0;
+    }  
+    .transactor{
+        display: inline-block;
+        position: relative;
+        top: 68px;
+        left: 63px;
+    } 
+
+
+    /*表格2*/
+.tr_2_2{
+    height: 60px;
+}
+.cases_from{
+    width: 100%;
+    text-align: left;
+
+}
+
+.tr_2_3{
+    height: 100px;
+}
+
+.tr_2_4{
+    height: 160px;
+}
+.tr_2_5{
+    height: 90px;
+}
+.tr_2_6{
+    height: 100px;
+}
+/*文化程度~~~~~~*/
+input{
+    background-color: none;
+    
+}
+.culture{
+    
+    text-align: left;
+}
+.check_square{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid black;
+}
+.culture_check{
+    display: inline-block;
+    margin-right: 50px;
+}
+.bo_line{
+    display: inline-block;
+    width: 20%;
+    height: 11px;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 5px;
+    left: -50px;
+}

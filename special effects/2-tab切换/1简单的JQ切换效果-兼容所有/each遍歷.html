@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="" content="" charset="UTF-8">
+  <style>
+  /*div { 
+    display: inline-block;
+    width: 300px;
+    color:red; 
+    text-align:center; 
+    cursor:pointer;
+    font-weight:bolder; 
+     }*/
+  </style>
+<script src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+  <!--<div>Click here</div> <br>
+  <div>to iterate through</div> <br>
+  <div>these divs.</div>-->
+
+  <button>Change colors</button>
+  <span>span1</span>
+  <div>1</div>
+  <div>2</div>
+
+  <div>3</div>
+  <div>4</div>
+  <div id="stop">Stop here</div>
+  <div>5</div>
+
+  <div>6</div>
+  <div>7</div>
+  <script>
+  // $(document.body).click(function () {
+  //   $("div").each(function (i) {
+  //     if (this.style.color != "blue") {
+  //       this.style.color = "blue";
+  //     } else {
+  //       this.style.color = "";
+  //     }
+  //   });
+  // });
+
+// each() 方法为每个匹配元素规定要运行的函数。
+  $("button").click(function () { 
+  $("div").each(function (index, domEle) { 
+    // domEle == this 
+    $(domEle).css("backgroundColor", "yellow");  
+    if ($(this).is("#stop")) { 
+    $("span").text("Stopped at div index #" + index); 
+    return false; //返回 false 可用于及早停止循环。
+    } 
+  });
+});
+</script>
+
+</body>
+
+</html>
